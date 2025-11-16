@@ -22,9 +22,6 @@ namespace Disaster_Relief_Donation_System
             registerbutton.MouseEnter += registerbutton_mousehover;
             registerbutton.MouseLeave += registerbutton_mouseleave;
 
-
-
-
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -60,6 +57,12 @@ namespace Disaster_Relief_Donation_System
         {
             registerbutton.Font = new Font(registerbutton.Font, FontStyle.Bold);
         }
+        private void registerbutton_Click(object sender, EventArgs e)
+        {
+            forgotPassword forgotpass = new forgotPassword();
+            forgotpass.Show();
+            this.Hide();
+        }
 
 
         private void label5_mousehover(object sender, EventArgs e) {
@@ -75,5 +78,11 @@ namespace Disaster_Relief_Donation_System
             forgotpass.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
