@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="forgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forgotPassword.Designer.cs">
+      <DependentUpon>forgotPassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
